@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://cdn.glitch.global/1e147a58-f47f-4b06-af66-8ba75c3a78fc/sky-g001fbef79_1920.jpg?v=1650648779153");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(
+      rgba(233, 200, 200, 0.3),
+      rgba(0, 0, 0, 0.6)
+    );
+    min-height: 100vh;
+  }
+  #header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #input {
+    padding: 15px;
+    background-color: rgba(237,230,219, 0.3);
+    border: 2px solid #383838;
+    border-radius: 15px;
+    font-size: 20px;
+  }
+  #input:focus {
+    background-color: #fff;
+  }
+  #when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #city {
+    color: #fff;
+    font-size: 40px;
+  }
+  #date {
+    color: #fff;
+    font-size: 25px;
+  }
+  #now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #temperature {
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 5px 10px #000;
+    margin: 0;
+  }
+  #feelsLike {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #conditions {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  #variation {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
